@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "Titoli";
+    src: url(../fonts/Rochester-Regular.ttf) format('truetype') ;
+  }
+@font-face {
+    font-family: "Normale";
+    src: url(../fonts/Overpass-Light.ttf) format('truetype') ;
+}
+@font-face {
+    font-family: "TitoliPiccoli";
+    src: url(../fonts/ProzaLibre-Medium.ttf) format('truetype') ;
+} 
+
+h1{
+    font-family: "Titoli" !important;
+    margin-bottom: 2vw;
+}
+h2{
+    font-family: "TitoliPiccoli";
+}
+p{
+    font-family: "Normale";
+    font-weight: 400;
+}
+
+
+/*
+    BARRA DI NAVIGAZIONE
+*/
+
+.bgcolor{
+    background-color: #FFF !important;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+}
+.nav-link{
+    color: #6886C5 !important;
+    font-family: "TitoliPiccoli" !important;
+    margin-left: 15px;
+}
+.nav-link:hover{
+    color: #ffacb7 !important;
+}
+/*
+    ICONE SOCIAL FIXED
+*/
+.social{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    background-color: #6886C5;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+/*
+    IMMAGINE HEADER
+*/
+.caneuno{
+    width: 100%;
+}
+/*
+    ABOUT
+*/
+.bg-primary{
+    padding: 5vw;
+}
+.col-sm-8{
+    padding: 3vw;
+}
+.col-sm-8 h1{
+    color: #ffacb7;
+}
+.col-sm-8 p{
+    color: #ffe0ac;
+}
+.col-sm-4{
+    padding: 10vw;
+
+}
+/*
+    TESTIMONIANZE
+*/
+.teste{
+    padding-top: 10vw;
+    padding-bottom: 5vw;
+}
+.teste h1{
+    text-align: center;
+    color: #6886C5;
+}
+.card-deck{
+    padding-top: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}    
+.card{
+    border: none;
+    
+}
+.card h2{
+    text-align: center;
+    color: #6886C5;
+    font-size: 600;
+    margin-bottom: 3vw;
+}
+.bravo{
+    color: #ffacb7;
+    text-decoration: none;
+    font-style: normal;
+}
+
+/*
+    CONTATTI
+*/
+
+.contatti{
+    padding-top: 5vw;
+}
+.container{
+    justify-content: center;
+}
+.contatti h1{
+    text-align: center;
+    color: #ffe0ac;
+}
+.col-lg-6{
+    align-items: center;
+    padding: 5vw;
+}
+.form{
+    border: 2px dotted #ffe0ac;
+    font-family: "Normale";
+    color:#ffe0ac;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vw;
+}
+button{
+    width: 30%;
+}
+
+/* 
+    FOOTER
+*/
+.footer{
+    text-align: center;
+    font-size: smaller;
+    color: #ffe0ac;
+}    
+
+
+
+
+/*
+    MEDIA QUERIES
+*/
+
+@media (min-width: 992px){
+    .nav-link{
+        font-size: 150%;
+    }
+    
+    h1{
+        font-size: 350%;
+    }
+    h2{
+        font-size: 150%;
+    }
+    p{
+        font-size: 150%;
+    }
+    
+
+   
+} 
